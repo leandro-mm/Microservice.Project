@@ -19,9 +19,11 @@ Before running the project, make sure you have the following installed:
 ---
 
 ## 🚀 Getting Started
-1. Clone the repositories:
-   ```bash
+1. Clone the Play.Inventory repositorie:
+```bash
    git clone https://github.com/leandro-mm/Play.Inventory.git
-   
+ ```
+2. Clone the Play.Catalog repositorie:
+   ```bash
     git clone https://github.com/leandro-mm/Play.Catalog.git
   ```
