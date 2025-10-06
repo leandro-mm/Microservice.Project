@@ -1,7 +1,7 @@
 # .Net Core MVC API with MongoDB and RabbitMQ
 
 ## 📌 Project Objective
-The goal of this project is to **create some .NET MVC API** that:  
+The goal of this project is to **create two .NET MVC API** that:  
 - Connects to a **MongoDB** database.  
 - Sends messages to a **RabbitMQ** message broker.  
 
