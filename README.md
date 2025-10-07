@@ -22,8 +22,20 @@ Before running the project, make sure you have the following installed:
 1. Clone the Play.Inventory repositorie:
 ```bash
    git clone https://github.com/leandro-mm/Play.Inventory.git
- ```
+```
 2. Clone the Play.Catalog repositorie:
-   ```bash
+```bash
     git clone https://github.com/leandro-mm/Play.Catalog.git
-  ```
+```
+3. Clone the Play.Common repositorie:
+```bash
+    git clone https://github.com/leandro-mm/Play.Common.git
+```
+## Create the NuGet Package
+build Play.Common project and then generate the NuGet Package
+1. Navigate to Play.Common\src\Play.Common
+2. Run the command   
+```bash
+    dotnet pack -o ..\..\..\packages\
+```
+3. 
