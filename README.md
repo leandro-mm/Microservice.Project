@@ -31,7 +31,7 @@ Before running the project, make sure you have the following installed:
 ```bash
     git clone https://github.com/leandro-mm/Play.Common.git
 ```
-## Create the NuGet Package
+## Generate Play.Common NuGet Package
 build Play.Common project and then generate the NuGet Package
 1. Navigate to Play.Common\src\Play.Common
 2. Run the command   
