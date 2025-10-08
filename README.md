@@ -33,7 +33,7 @@ Before running the project, make sure you have the following installed:
 ```bash
    https://github.com/leandro-mm/Play.Infra.git
 ```
-### Open the project terminal and start the default network that all containers will be joining to
+### Open the project terminal and start the default network that all containers will be joining to:
 ```bash
   docker-compose up
 ```
