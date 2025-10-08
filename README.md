@@ -19,21 +19,21 @@ Before running the project, make sure you have the following installed:
 ---
 
 ## 🚀 Getting Started
-1. Clone the Play.Inventory repositorie:
+### Clone the Play.Inventory repositorie:
 ```bash
    git clone https://github.com/leandro-mm/Play.Inventory.git
 ```
-2. Clone the Play.Catalog repositorie:
+### Clone the Play.Catalog repositorie:
 ```bash
     git clone https://github.com/leandro-mm/Play.Catalog.git
 ```
 
 ## Docker Compose
-1.  Clone the Play.Infra repositorie:   
+###  Clone the Play.Infra repositorie:   
 ```bash
    https://github.com/leandro-mm/Play.Infra.git
 ```
-2. Open the project terminal and start the default network that all containers will be joining to
+### Open the project terminal and start the default network that all containers will be joining to
 ```bash
   docker-compose up
 ```
