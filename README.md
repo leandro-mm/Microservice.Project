@@ -27,15 +27,14 @@ Before running the project, make sure you have the following installed:
 ```bash
     git clone https://github.com/leandro-mm/Play.Catalog.git
 ```
-3. Clone the Play.Common repositorie:
+
+## Docker Compose
+1.  Clone the Play.Infra repositorie:   
 ```bash
-    git clone https://github.com/leandro-mm/Play.Common.git
+   https://github.com/leandro-mm/Play.Infra.git
 ```
-## Generate Play.Common NuGet Package
-build Play.Common project and then generate the NuGet Package
-1. Navigate to Play.Common\src\Play.Common
-2. Run the command   
+2. Open the project terminal and start the default network that all containers will be joining to
 ```bash
-    dotnet pack -o ..\..\..\packages\
+  docker-compose up
 ```
-3. 
+
