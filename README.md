@@ -16,7 +16,9 @@ Before running the project, make sure you have the following installed:
 
 - [✅ .NET SDK 8.0.400](https://dotnet.microsoft.com/en-us/download)  
 - [✅ Docker Desktop for Windows](https://www.docker.com/products/docker-desktop/)  
-- [✅ Visual Studio Code](https://code.visualstudio.com/)  
+- [✅ Visual Studio Code](https://code.visualstudio.com/)
+- [✅ npm](https://www.npmjs.com/)
+- [✅ node](https://www.npmjs.com/](https://nodejs.org/pt) 
 
 ---
 
