@@ -1,9 +1,11 @@
 # .Net Core MVC API with MongoDB and RabbitMQ
 
-## 📌 Project Objective
-The goal of this project is to **create two .NET MVC API** that:  
-- Connects to a **MongoDB** database.  
-- Sends messages to a **RabbitMQ** message broker.  
+## 📌 This project was built with:
+- ASP.NET Core and C# for cross-platform server-side code
+- Docker for services containerization
+- MongoDB for database storage
+- RabbitMQ and MassTransit for message-based asynchronous communication
+- React for client-side rendering and Bootstrap for layout and styling
 
 This project demonstrates integration between an API, a NoSQL database, and a message queue to enable scalable and decoupled communication between services.  
 
