@@ -18,7 +18,7 @@ Before running the project, make sure you have the following installed:
 - [✅ Docker Desktop for Windows](https://www.docker.com/products/docker-desktop/)  
 - [✅ Visual Studio Code](https://code.visualstudio.com/)
 - [✅ npm](https://www.npmjs.com/)
-- [✅ node](https://www.npmjs.com/](https://nodejs.org/pt) 
+- [✅ node](https://nodejs.org/pt) 
 
 ---
 
