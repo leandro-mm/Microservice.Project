@@ -23,15 +23,19 @@ Before running the project, make sure you have the following installed:
 ---
 
 ## 🚀 Getting Started
-### Clone the Play.Inventory repositorie:
+### Clone Projects
+#### Play.Inventory 
 ```bash
    git clone https://github.com/leandro-mm/Play.Inventory.git
 ```
-### Clone the Play.Catalog repositorie:
+#### Play.Catalog
 ```bash
     git clone https://github.com/leandro-mm/Play.Catalog.git
 ```
-
+#### Play.FrontEnd
+```bash
+    https://github.com/leandro-mm/Play.FrontEnd.git
+```
 ## Docker Compose
 ###  Clone the Play.Infra repositorie:   
 ```bash
