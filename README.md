@@ -36,12 +36,12 @@ Before running the project, make sure you have the following installed:
 ```bash
     https://github.com/leandro-mm/Play.FrontEnd.git
 ```
-## Docker Compose
-###  Clone the Play.Infra repositorie:   
+#### Play.Infra 
 ```bash
    https://github.com/leandro-mm/Play.Infra.git
 ```
-### Open the project terminal and start the default network that all containers will be joining to:
+#### Open the project terminal
+#### Exec code bellow to start the default network that all containers will be joining to:
 ```bash
   docker-compose up
 ```
