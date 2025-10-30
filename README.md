@@ -1,4 +1,4 @@
-# .Net Core MVC API with MongoDB and RabbitMQ
+# React and .Net Core MVC API with MongoDB and RabbitMQ
 
 ## 📌 This project was built with:
 - ASP.NET Core and C# for cross-platform server-side code
@@ -40,6 +40,11 @@ Before running the project, make sure you have the following installed:
 ```bash
    https://github.com/leandro-mm/Play.Infra.git
 ```
+#### Play.Trading 
+```bash
+   https://github.com/leandro-mm/Play.Trading.git
+```
+
 #### Open the project terminal
 #### Exec code bellow to start the default network that all containers will be joining to:
 ```bash
