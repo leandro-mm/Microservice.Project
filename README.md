@@ -5,7 +5,7 @@
 - Docker for services containerization
 - MongoDB for database storage
 - RabbitMQ and MassTransit for message-based asynchronous communication
-- React for client-side rendering and Bootstrap for layout and styling
+- React for client-side rendering 
 
 This project demonstrates integration between an API, a NoSQL database, and a message queue to enable scalable and decoupled communication between services.  
 
