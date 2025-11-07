@@ -1,4 +1,4 @@
-# React and .Net Core MVC API with MongoDB and RabbitMQ
+# .Net Core MVC API with MongoDB, RabbitMQ and React
 
 ## 📌 This project was built with:
 - ASP.NET Core and C# for cross-platform server-side code
@@ -7,7 +7,12 @@
 - RabbitMQ and MassTransit for message-based asynchronous communication
 - React for client-side rendering 
 
-This project demonstrates integration between an API, a NoSQL database, and a message queue to enable scalable and decoupled communication between services.  
+## 🎯 Purpose 
+- integration between API, NoSQL database and Message Queue
+- enable scalable and decoupled communication between services
+- At the end we will have an archtecture like this:
+
+![archtecture diagram](diagrama.png)   
 
 ---
 
@@ -22,7 +27,7 @@ Before running the project, make sure you have the following installed:
 
 ---
 
-## Clone Projects
+## To start, please, clone this projects:
 ```mermaid
 graph TD
     A[Microservices]
@@ -31,21 +36,29 @@ graph TD
     A --> D[Play.FrontEnd2]
     A --> E[Play.Infra]
     A --> F[Play.Trading]
+    A --> G[Play.Identity]
 
     click B "https://github.com/leandro-mm/Play.FrontEnd2.git" "Open Play.FrontEnd"
     click C "https://github.com/leandro-mm/Play.Catalog.git" "Open Play.Catalog"
     click D "https://github.com/leandro-mm/Play.Inventory.git" "Open Play.Inventory"
     click E "https://github.com/leandro-mm/Play.Infra.git" "Open Play.Infra"
     click F "https://github.com/leandro-mm/Play.Trading.git" "Open Play.Trading"
+    click G "https://github.com/leandro-mm/Play.Identity.git" "Open Play.Identity"
 
 ```
-## Open VS Code terminal
+## After having cloned, open VS Code terminal and folow these instructions:
 #### go to Play.Infra project folder and execute:
 ```bash
   docker-compose up
 ```
 #### split VS Code terminal:
-go to Play.Inventory, Play.Catalog and Play.Trading project folders and execute:
+go to
+- Play.Inventory/src/Play.Inventor.Service folder
+- Play.Catalog/src/Play.Catalog.Service folder
+- Play.Identity/src/Play.Identity.Service folder
+- Play.Trading/src/Play.Trading.Service folder
+
+and execute:
 ```bash
   dotnet run
 ```
