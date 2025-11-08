@@ -38,7 +38,7 @@ graph TD
     A --> F[Play.Trading]
     A --> G[Play.Identity]
 
-    click B "https://github.com/leandro-mm/Play.FrontEnd2.git" "Open Play.FrontEnd"
+    click B "https://github.com/leandro-mm/Play.FrontEnd.git" "Open Play.FrontEnd"
     click C "https://github.com/leandro-mm/Play.Catalog.git" "Open Play.Catalog"
     click D "https://github.com/leandro-mm/Play.Inventory.git" "Open Play.Inventory"
     click E "https://github.com/leandro-mm/Play.Infra.git" "Open Play.Infra"
