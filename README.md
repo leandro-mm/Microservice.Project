@@ -3,6 +3,14 @@
 ## The Context
 E-commerce is no longer just an alternative to physical retail. It is the dominant growth engine for modern businesses.
 
+### 🌐 **pt-br**:
+```markdown
+- Desafio: Necessidade de uma plataforma de e-commerce escalável para lidar com cargas variáveis de usuários durante picos de venda.
+- Ação: Implementar uma arquitetura baseada em microsserviços com ASP.NET Core, MongoDB e RabbitMQ, containerização (Docker) para fácil escalabilidade e isolamento de falhas.
+- Resultado: Um sistema resiliente, capaz de lidar com alto tráfego, com operações idempotentes para evitar pedidos duplicados.
+
+```
+
 ## Why E-Commerce Matters
 
 | Concept | Description |
